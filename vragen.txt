@@ -1,0 +1,16 @@
+De klasse item_genrenaam_genre bestaat uit niets, maar cd/boek wel. Hoe kunnen die item tabel verwijderen.
+
+
+Bij lazy fetching, is dit juist?
+
+
+moeten alle objecten opgevraagd worden, moet dat varieren enz
+
+cascade, is dit alles wat we moeten doen (variabele op true zetten)
+
+moeten we alle rollen enz (admin) en authenticatie/authorizatie toevoegen?
+
+
+* controller nu weglaten aangezien route dit vervangt?
+
+

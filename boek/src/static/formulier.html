@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boek</title>
+</head>
+<body>
+    <h1> BOEK HUREN/TERUGBRENGEN </h1>
+    <form id="form" action="http://193.191.169.111:3000/huren" method="POST">
+        <label for="voornaam">Voornaam:</label><br>
+        <input type="text" id="voornaam" name="voornaam" required><br>
+        <label for="familienaam">Familienaam:</label><br>
+        <input type="text" id="familienaam" name="familienaam" required> <br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="isbn">ISBN:</label><br>
+        <input type="text" id="isbn" name="isbn_nummer" required> <br>
+
+        Terugbrengen of huren? <br>
+
+        <input type="radio" id="terug" name="type" value="terug" required>
+        <label for="terug">terugbrengen</label> <br>
+
+        <input type="radio" id="huren" name="type" value="huren" required>
+        <label for="huren">huren</label> <br> <br>
+
+        <input type="submit" id="uitlenen" value="Submit"> <br>
+
+        <br><br>
+        To see all the available books go to <a href="http://193.191.169.111:3000/huren/beschikbare-boeken"> http://193.191.169.111:3000/huren/beschikbare-boeken</a>
+    </form>
+<script src="formulier.js"></script>
+</body>
+</html>
